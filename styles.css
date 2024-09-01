@@ -1,0 +1,109 @@
+/* Basic CSS for layout, you can move this to styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+header .logo {
+    position: absolute;
+    left: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+}
+header .title {
+    text-align: center;
+    width: 100%;
+    margin-left: 0px; /* Adjust to make space for logo */
+}
+header img {
+    height: 100px; /* Adjust size as needed */
+    width: auto;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+section {
+    padding: 10px;
+}
+.education-header {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    margin-bottom: 20px;
+}
+.education-header img {
+    height: 30px; /* Adjust size as needed */
+    width: auto;
+    margin-right: 10px;
+    object-fit: scale-down;
+    padding-left: 20px;
+}
+.publication-header {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    margin-bottom: 20px;
+}
+.publication-header img {
+    height: 30px; /* Adjust size as needed */
+    width: auto;
+    margin-right: 10px;
+    object-fit: scale-down;
+    padding-left: 20px;
+}
+.opensource-header {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    margin-bottom: 20px;
+}
+.opensource-header img {
+    height: 30px; /* Adjust size as needed */
+    width: auto;
+    margin-right: 10px;
+    object-fit: scale-down;
+    padding-left: 20px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+/* Background colors for sections */
+#education {
+    background-color: #f4f4f4; /* Light gray background for resume section */
+    padding-left: 5%;
+}
+#publication {
+    background-color: #e2e2e2; /* Slightly darker gray for portfolio section */
+    padding-left: 5%;
+}
+#opensource {
+    background-color: #f4f4f4; /* Light green background for projects section */
+    padding-left: 5%;
+}
