@@ -3,31 +3,33 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
     display: flex;
     align-items: center;
-    position: relative;
-    overflow: hidden;
+    justify-content: center;
+    
+    height: 60px;
+    width: 100%;
+
+    background: #333;
+    color: #fff;
+
+    padding: 0;
 }
-header .logo {
-    position: absolute;
-    left: 10px; /* Adjust as needed */
-    top: 50%;
-    transform: translateY(-50%);
+header .personallogo {
+    padding-left: 10px;
+    height: 55px;
+    width: auto;
 }
 header .title {
     text-align: center;
     width: 100%;
-    margin-left: 0px; /* Adjust to make space for logo */
+    margin-left: 0px;
 }
-header img {
-    height: 100px; /* Adjust size as needed */
-    width: auto;
+header .titlepadding {
+    width: 100;
+    height: 60;
 }
 .container {
     width: 100%;
@@ -35,7 +37,7 @@ header img {
     overflow: hidden;
 }
 nav {
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: center;
 }
 nav a {
@@ -45,6 +47,10 @@ nav a {
 }
 section {
     padding: 10px;
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 .education-header {
     display: flex;
